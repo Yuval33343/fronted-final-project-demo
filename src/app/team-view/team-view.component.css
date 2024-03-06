@@ -1,0 +1,16 @@
+
+.team-view-container{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 8px;
+}
+
+.person-card{
+  margin: 8px;
+  padding: 30px;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
