@@ -22,7 +22,7 @@ import { RouterModule } from '@angular/router';
 })
 export class TeamViewComponent implements OnInit {
   allPersons: Person[] = [];
-
+  // readonly ?? 
   constructor(private personService: PeronsService) {
   }
 

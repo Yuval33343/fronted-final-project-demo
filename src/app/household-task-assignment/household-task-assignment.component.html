@@ -1,0 +1,13 @@
+<div>
+    <mat-form-field>
+        <mat-label>Choose Tasks:</mat-label>
+        <mat-select>
+            <mat-option *ngFor="let task of allTasks"[value]="task">{{ task.name }}</mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>
+<div>
+    <button mat-flat-button color="primary" [disabled]="!selectedTask">
+    Assign Team
+    </button>
+</div>
